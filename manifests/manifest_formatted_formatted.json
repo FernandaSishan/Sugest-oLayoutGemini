@@ -1,0 +1,75 @@
+
+{
+  "projectName": "TesteModelagem",
+  "author": "Bruno",
+  "ihm": {
+    "model": "PX4",
+    "width": 480,
+    "height": 272,
+    "orientation": "portrait"
+  },
+  "screens": [
+    {
+      "typeComponent": "Screen",
+      "id": "screen1",
+      "backgroundColor": "#FFFFFF",
+      "childs": [
+        {
+          "typeComponent": "TextArea",
+          "id": "text1",
+          "value": "TEMPO PRODUTO",
+          "color": "#000000",
+          "fontSize": 20,
+          "posX": 39,
+          "posY": 50
+        },
+        {
+          "typeComponent": "Container",
+          "id": "container1",
+          "value": "RECEITAS",
+          "backgroundColor": "#000000",
+          "width": 100,
+          "height": 50,
+          "posX": 290,
+          "posY": 142
+        },
+        {
+          "typeComponent": "ButtonWithLabel",
+          "id": "buttonWithLabel1",
+          "title": "CONGELAR",
+          "color": "#FFF",
+          "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+          "fontSize": 10,
+          "width": 170,
+          "height": 60,
+          "posX": 234,
+          "posY": 43
+        },
+        {
+          "typeComponent": "ButtonWithLabel",
+          "id": "buttonWithLabel2",
+          "title": "CONGELAR",
+          "color": "#FFF",
+          "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+          "fontSize": 10,
+          "width": 170,
+          "height": 60,
+          "posX": 15,
+          "posY": 117
+        },
+        {
+          "typeComponent": "Box",
+          "id": "Box1",
+          "value": "Lista de receitas",
+          "backgroundColor": "#0000",
+          "borderWidth": 1,
+          "borderColor": "#000",
+          "width": 100,
+          "height": 50,
+          "posX": 0,
+          "posY": 0
+        }
+      ]
+    }
+  ]
+}
