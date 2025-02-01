@@ -46,12 +46,16 @@ def format_manifest(manifest_data):
         return None
 
 def save_formatted_manifest(file_path, formatted_manifest):
-    """Salva o manifesto formatado em um novo arquivo."""
+    """Salva o manifesto formatado em um novo arquivo na pasta 'manifestAjustado'."""
     if formatted_manifest is None:
         return
 
     try:
-        new_file_path = file_path.replace(".json", "_formatted.json")
+        adjusted_dir = os.path.join(os.getcwd(), "manifestAjustado")
+        if not os.path.exists(adjusted_dir):
+            os.makedirs(adjusted_dir)  # Cria a pasta se não existir
+
+        new_file_path = os.path.join(adjusted_dir, os.path.basename(file_path).replace(".json", "_formatted.json"))
         with open(new_file_path, 'w') as file:
             file.write(formatted_manifest)
         print(f"Manifesto formatado salvo em: {new_file_path}")

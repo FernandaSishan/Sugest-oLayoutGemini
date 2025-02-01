@@ -1,4 +1,3 @@
-
 {
   "projectName": "TesteModelagem",
   "author": "Bruno",
@@ -14,6 +13,30 @@
       "id": "screen1",
       "backgroundColor": "#FFFFFF",
       "childs": [
+        {
+          "typeComponent": "ButtonWithLabel",
+          "id": "buttonWithLabel1",
+          "title": "CONGELAR",
+          "color": "#FFF",
+          "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+          "fontSize": 10,
+          "width": 170,
+          "height": 60,
+          "posX": 15,
+          "posY": 43
+        },
+        {
+          "typeComponent": "ButtonWithLabel",
+          "id": "buttonWithLabel2",
+          "title": "CONGELAR",
+          "color": "#FFF",
+          "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+          "fontSize": 10,
+          "width": 170,
+          "height": 60,
+          "posX": 234,
+          "posY": 117
+        },
         {
           "typeComponent": "TextArea",
           "id": "text1",
@@ -32,30 +55,6 @@
           "height": 50,
           "posX": 290,
           "posY": 142
-        },
-        {
-          "typeComponent": "ButtonWithLabel",
-          "id": "buttonWithLabel1",
-          "title": "CONGELAR",
-          "color": "#FFF",
-          "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
-          "fontSize": 10,
-          "width": 170,
-          "height": 60,
-          "posX": 234,
-          "posY": 43
-        },
-        {
-          "typeComponent": "ButtonWithLabel",
-          "id": "buttonWithLabel2",
-          "title": "CONGELAR",
-          "color": "#FFF",
-          "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
-          "fontSize": 10,
-          "width": 170,
-          "height": 60,
-          "posX": 15,
-          "posY": 117
         },
         {
           "typeComponent": "Box",
