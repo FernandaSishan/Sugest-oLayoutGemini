@@ -6,7 +6,7 @@ import json
 GOOGLE_API_KEY = "AIzaSyDuZI-_BGgqdiKCKOpc7woUQlAKBqY879k"  # Sua chave
 
 genai.configure(api_key=GOOGLE_API_KEY)
-model = genai.GenerativeModel('gemini-pro')
+model = genai.GenerativeModel('gemini-1.5-pro')
 
 def load_manifest(file_path):
     """Carrega um arquivo JSON (manifesto)."""
@@ -27,11 +27,9 @@ def format_manifest(manifest_data):
 
     prompt = f"""
     
-    Por favor, ajuste a posição dos componentes no manifesto para criar um layout mais visualmente organizado e alinhado.
+    Ajuste a posição dos componentes no manifesto para criar um layout mais visualmente organizado e alinhado.
     O objetivo é garantir que os elementos da interface fiquem bem distribuídos e harmoniosos, com espaçamento adequado
-    entre eles, alinhamento consistente e uma estrutura mais agradável esteticamente. Mantenha a hierarquia e a funcionalidade do design, 
-    mas otimize a disposição dos componentes para melhorar a clareza visual e a fluidez da interface,
-    resultando em uma aparência sintaticamente mais bonita e equilibrada.
+    entre eles, alinhamento consistente e uma estrutura mais agradável esteticamente. Pode alterar cores, se necessário.
     
     {json.dumps(manifest_data, indent=2)}
     
@@ -55,7 +53,7 @@ def save_formatted_manifest(file_path, formatted_manifest):
         if not os.path.exists(adjusted_dir):
             os.makedirs(adjusted_dir)  # Cria a pasta se não existir
 
-        new_file_path = os.path.join(adjusted_dir, os.path.basename(file_path).replace(".json", "_formatted.json"))
+        new_file_path = os.path.join(adjusted_dir, os.path.basename(file_path).replace(".json", "_testecor.json"))
         with open(new_file_path, 'w') as file:
             file.write(formatted_manifest)
         print(f"Manifesto formatado salvo em: {new_file_path}")

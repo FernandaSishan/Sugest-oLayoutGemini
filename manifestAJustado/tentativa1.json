@@ -1,3 +1,4 @@
+
 {
   "projectName": "TesteModelagem",
   "author": "Bruno",
@@ -14,6 +15,15 @@
       "backgroundColor": "#FFFFFF",
       "childs": [
         {
+          "typeComponent": "TextArea",
+          "id": "text1",
+          "value": "TEMPO PRODUTO",
+          "color": "#000000",
+          "fontSize": 20,
+          "posX": 20, 
+          "posY": 20   
+        },
+        {
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel1",
           "title": "CONGELAR",
@@ -22,8 +32,8 @@
           "fontSize": 10,
           "width": 170,
           "height": 60,
-          "posX": 15,
-          "posY": 43
+          "posX": 20, 
+          "posY": 70  
         },
         {
           "typeComponent": "ButtonWithLabel",
@@ -34,39 +44,30 @@
           "fontSize": 10,
           "width": 170,
           "height": 60,
-          "posX": 234,
-          "posY": 117
-        },
-        {
-          "typeComponent": "TextArea",
-          "id": "text1",
-          "value": "TEMPO PRODUTO",
-          "color": "#000000",
-          "fontSize": 20,
-          "posX": 39,
-          "posY": 50
+          "posX": 290, 
+          "posY": 70   
         },
         {
           "typeComponent": "Container",
           "id": "container1",
           "value": "RECEITAS",
           "backgroundColor": "#000000",
-          "width": 100,
+          "width": 170,  
           "height": 50,
-          "posX": 290,
-          "posY": 142
+          "posX": 20, 
+          "posY": 150 
         },
         {
           "typeComponent": "Box",
           "id": "Box1",
           "value": "Lista de receitas",
-          "backgroundColor": "#0000",
+          "backgroundColor": "#000000", 
           "borderWidth": 1,
-          "borderColor": "#000",
-          "width": 100,
-          "height": 50,
-          "posX": 0,
-          "posY": 0
+          "borderColor": "#000000", 
+          "width": 170, 
+          "height": 100, 
+          "posX": 290, 
+          "posY": 150  
         }
       ]
     }
