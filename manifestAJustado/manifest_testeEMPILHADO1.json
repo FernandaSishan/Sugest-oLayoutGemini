@@ -1,0 +1,190 @@
+{
+  "projectName": "forno",
+  "author": "fernanda",
+  "ihm": {
+    "model": "PX4",
+    "width": 480,
+    "height": 272,
+    "orientation": "portrait"
+  },
+  "screens": [
+    {
+      "typeComponent": "Screen",
+      "id": "screen1",
+      "backgroundColor": "#f0f0f0",
+      "childs": [
+        {
+          "typeComponent": "Image",
+          "id": "image1",
+          "value": "image1",
+          "backgroundImage": "",
+          "width": 100,
+          "height": 100,
+          "posX": 20,
+          "posY": 20
+        },
+        {
+          "typeComponent": "BoxWithBorder",
+          "id": "boxWithBorder1",
+          "value": "boxWithBorder1",
+          "backgroundColor": "#FFFFFF",
+          "borderWidth": 1,
+          "borderColor": "#000",
+          "width": 100,
+          "height": 50,
+          "posX": 20,
+          "posY": 140
+        },
+        {
+          "typeComponent": "ButtonWithLabel",
+          "id": "buttonWithLabel1",
+          "title": "button1",
+          "color": "#FFFFFF",
+          "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+          "fontSize": 12,
+          "width": 150,
+          "height": 40,
+          "posX": 190,
+          "posY": 20
+        },
+        {
+          "typeComponent": "ButtonWithLabel",
+          "id": "buttonWithLabel2",
+          "title": "button2",
+          "color": "#FFFFFF",
+          "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+          "fontSize": 12,
+          "width": 150,
+          "height": 40,
+          "posX": 190,
+          "posY": 80
+        },
+        {
+          "typeComponent": "ButtonWithLabel",
+          "id": "buttonWithLabel3",
+          "title": "button3",
+          "color": "#FFFFFF",
+          "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+          "fontSize": 12,
+          "width": 150,
+          "height": 40,
+          "posX": 190,
+          "posY": 140
+        }
+      ],
+      "events": {}
+    },
+    {
+      "typeComponent": "Screen",
+      "id": "screen2",
+      "backgroundColor": "#e0e0e0",
+      "childs": [
+        {
+          "typeComponent": "Image",
+          "id": "image1",
+          "value": "image1",
+          "backgroundImage": "",
+          "width": 100,
+          "height": 100,
+          "posX": 20,
+          "posY": 20
+        },
+        {
+          "typeComponent": "ButtonWithLabel",
+          "id": "buttonWithLabel1",
+          "title": "button1",
+          "color": "#FFFFFF",
+          "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+          "fontSize": 12,
+          "width": 150,
+          "height": 40,
+          "posX": 190,
+          "posY": 20
+        },
+        {
+          "typeComponent": "ButtonWithLabel",
+          "id": "buttonWithLabel2",
+          "title": "button2",
+          "color": "#FFFFFF",
+          "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+          "fontSize": 12,
+          "width": 150,
+          "height": 40,
+          "posX": 190,
+          "posY": 80
+        },
+        {
+          "typeComponent": "ToggleButton",
+          "id": "toggleButton1",
+          "label": "toggleButton1",
+          "imageToggleOn": "Toggle_Button_Round_icon_toggle_on.png",
+          "imageToggleOff": "Toggle_Button_Round_icon_toggle_off.png",
+          "width": 100,
+          "height": 60,
+          "posX": 20,
+          "posY": 140
+        }
+      ],
+      "height": 480,
+      "width": 482,
+      "orientation": "portrait",
+      "events": {}
+    },
+    {
+      "typeComponent": "Screen",
+      "id": "screen3",
+      "backgroundColor": "#d0d0d0",
+      "childs": [
+        {
+          "typeComponent": "Image",
+          "id": "image1",
+          "value": "image1",
+          "backgroundImage": "",
+          "width": 100,
+          "height": 100,
+          "posX": 20,
+          "posY": 20
+        },        
+        {
+          "typeComponent": "BoxWithBorder",
+          "id": "boxWithBorder1",
+          "value": "boxWithBorder1",
+          "backgroundColor": "#FFFFFF",
+          "borderWidth": 1,
+          "borderColor": "#000",
+          "width": 100,
+          "height": 50,
+          "posX": 20,
+          "posY": 140
+        },
+        {
+          "typeComponent": "ButtonWithLabel",
+          "id": "buttonWithLabel1",
+          "title": "button1",
+          "color": "#FFFFFF",
+          "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+          "fontSize": 12,
+          "width": 150,
+          "height": 40,
+          "posX": 190,
+          "posY": 20
+        },
+        {
+          "typeComponent": "ButtonWithLabel",
+          "id": "buttonWithLabel2",
+          "title": "button2",
+          "color": "#FFFFFF",
+          "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+          "fontSize": 12,
+          "width": 150,
+          "height": 40,
+          "posX": 190,
+          "posY": 80
+        }
+      ],
+      "height": 480,
+      "width": 482,
+      "orientation": "portrait"
+    }
+  ]
+}

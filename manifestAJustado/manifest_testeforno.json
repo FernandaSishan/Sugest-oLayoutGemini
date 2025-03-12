@@ -1,0 +1,120 @@
+```json
+{
+  "projectName": "forno",
+  "author": "fernanda",
+  "ihm": {
+    "model": "PX4",
+    "width": 480,
+    "height": 272,
+    "orientation": "portrait"
+  },
+  "screens": [
+    {
+      "typeComponent": "Screen",
+      "id": "screen1",
+      "backgroundColor": "#f0f0f0",
+      "childs": [
+        {
+          "typeComponent": "ButtonWithLabel",
+          "id": "buttonWithLabel1",
+          "title": "Informações",
+          "color": "#FFFFFF",
+          "backgroundColor": "#4CAF50",
+          "fontSize": 14,
+          "width": 200,
+          "height": 50,
+          "posX": 20,
+          "posY": 20
+        },
+        {
+          "typeComponent": "ButtonWithLabel",
+          "id": "buttonWithLabel2",
+          "title": "Receita",
+          "color": "#FFFFFF",
+          "backgroundColor": "#2196F3",
+          "fontSize": 14,
+          "width": 200,
+          "height": 50,
+          "posX": 20,
+          "posY": 90
+        },
+        {
+          "typeComponent": "ButtonWithLabel",
+          "id": "buttonWithLabel3",
+          "title": "Idioma",
+          "color": "#FFFFFF",
+          "backgroundColor": "#FFC107",
+          "fontSize": 14,
+          "width": 200,
+          "height": 50,
+          "posX": 20,
+          "posY": 160
+        },
+        {
+          "typeComponent": "ButtonWithLabel",
+          "id": "buttonWithLabel4",
+          "title": "Configurações",
+          "color": "#FFFFFF",
+          "backgroundColor": "#9C27B0",
+          "fontSize": 14,
+          "width": 200,
+          "height": 50,
+          "posX": 260,
+          "posY": 20
+        },
+        {
+          "typeComponent": "ButtonWithLabel",
+          "id": "buttonWithLabel5",
+          "title": "Time",
+          "color": "#FFFFFF",
+          "backgroundColor": "#009688",
+          "fontSize": 14,
+          "width": 200,
+          "height": 50,
+          "posX": 260,
+          "posY": 90
+        },
+        {
+          "typeComponent": "ButtonWithLabel",
+          "id": "buttonWithLabel6",
+          "title": "Ativações Agendadas",
+          "color": "#FFFFFF",
+          "backgroundColor": "#795548",
+          "fontSize": 14,
+          "width": 200,
+          "height": 50,
+          "posX": 260,
+          "posY": 160
+        }
+      ]
+    },
+    {
+      "typeComponent": "Screen",
+      "id": "screen2",
+      "backgroundColor": "#FFFFFF",
+      "childs": [
+        {
+          "typeComponent": "ButtonWithLabel",
+          "id": "buttonWithLabel1",
+          "title": "Início",
+          "color": "#FFFFFF",
+          "backgroundColor": "#2196F3",
+          "fontSize": 14,
+          "width": 150,
+          "height": 40,
+          "posX": 165,
+          "posY": 220
+        }
+      ]
+    },
+    {
+      "typeComponent": "Screen",
+      "id": "screen3",
+      "backgroundColor": "#FFFFFF",
+      "childs": [
+
+      ]
+    }
+  ]
+}
+```
