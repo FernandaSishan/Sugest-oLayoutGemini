@@ -1,6 +1,6 @@
 {
-    "projectName": "forno",
-    "author": "fernanda",
+    "projectName": "Ultracongelador",
+    "author": "Fernanda",
     "ihm": {
         "model": "PX4",
         "width": 480,
@@ -11,180 +11,1445 @@
         {
             "typeComponent": "Screen",
             "id": "screen1",
-            "backgroundColor": "#ffffffff",
+            "backgroundColor": "#FFFFFF",
             "childs": [
-                {
-                    "typeComponent": "BoxWithBorder",
-                    "id": "boxWithBorder1",
-                    "value": "boxWithBorder1",
-                    "backgroundColor": "#FFFFFF",
-                    "borderWidth": 1,
-                    "borderColor": "#000",
-                    "width": 100,
-                    "height": 50,
-                    "posX": 30,
-                    "posY": 30
-                },
-                {
-                    "typeComponent": "Image",
-                    "id": "image1",
-                    "value": "image1",
-                    "backgroundImage": "",
-                    "width": 100,
-                    "height": 100,
-                    "posX": 30,
-                    "posY": 30
-                },
                 {
                     "typeComponent": "ButtonWithLabel",
                     "id": "buttonWithLabel1",
-                    "title": "button1",
+                    "title": "CONGELAR",
                     "color": "#FFF",
                     "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
                     "fontSize": 10,
                     "width": 170,
                     "height": 60,
-                    "posX": 30,
-                    "posY": 30
+                    "posX": 0,
+                    "posY": 0
                 },
                 {
                     "typeComponent": "ButtonWithLabel",
                     "id": "buttonWithLabel2",
-                    "title": "button2",
+                    "title": "CONSERVAR",
                     "color": "#FFF",
                     "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
                     "fontSize": 10,
                     "width": 170,
                     "height": 60,
-                    "posX": 30,
-                    "posY": 30
+                    "posX": 0,
+                    "posY": 0
                 },
                 {
                     "typeComponent": "ButtonWithLabel",
                     "id": "buttonWithLabel3",
-                    "title": "button3",
+                    "title": "RECEITAS",
                     "color": "#FFF",
                     "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
                     "fontSize": 10,
                     "width": 170,
                     "height": 60,
-                    "posX": 30,
-                    "posY": 30
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel4",
+                    "title": "RESFRIAR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel5",
+                    "title": "DEGELO",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel6",
+                    "title": "HIGIENIZA\u00c7\u00c3O",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel7",
+                    "title": "Config",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
                 }
-            ],
-            "events": {}
+            ]
         },
         {
             "typeComponent": "Screen",
             "id": "screen2",
-            "backgroundColor": "#f6f6f6ff",
+            "backgroundColor": "#FFFFFF",
             "childs": [
                 {
                     "typeComponent": "ButtonWithLabel",
                     "id": "buttonWithLabel1",
-                    "title": "button1",
+                    "title": "MODO TEMPO",
                     "color": "#FFF",
                     "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
                     "fontSize": 10,
                     "width": 170,
                     "height": 60,
-                    "posX": 30,
-                    "posY": 30
+                    "posX": 0,
+                    "posY": 0
                 },
                 {
                     "typeComponent": "ButtonWithLabel",
                     "id": "buttonWithLabel2",
-                    "title": "button2",
+                    "title": "MODO SONDA",
                     "color": "#FFF",
                     "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
                     "fontSize": 10,
                     "width": 170,
                     "height": 60,
-                    "posX": 30,
-                    "posY": 30
+                    "posX": 0,
+                    "posY": 0
                 },
                 {
-                    "typeComponent": "ToggleButton",
-                    "id": "toggleButton1",
-                    "label": "toggleButton1",
-                    "imageToggleOn": "Toggle_Button_Round_icon_toggle_on.png",
-                    "imageToggleOff": "Toggle_Button_Round_icon_toggle_off.png",
-                    "width": 100,
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel3",
+                    "title": "VOLTAR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
                     "height": 60,
-                    "posX": 30,
-                    "posY": 30
-                },
-                {
-                    "typeComponent": "Image",
-                    "id": "image1",
-                    "value": "image1",
-                    "backgroundImage": "",
-                    "width": 100,
-                    "height": 100,
-                    "posX": 30,
-                    "posY": 30
+                    "posX": 0,
+                    "posY": 0
                 }
-            ],
-            "height": 480,
-            "width": 482,
-            "orientation": "portrait",
-            "events": {}
+            ]
         },
         {
             "typeComponent": "Screen",
             "id": "screen3",
-            "backgroundColor": "#f6f6f6ff",
+            "backgroundColor": "#FFFFFF",
             "childs": [
-                {
-                    "typeComponent": "BoxWithBorder",
-                    "id": "boxWithBorder1",
-                    "value": "boxWithBorder1",
-                    "backgroundColor": "#FFFFFF",
-                    "borderWidth": 1,
-                    "borderColor": "#000",
-                    "width": 100,
-                    "height": 50,
-                    "posX": 30,
-                    "posY": 30
-                },
-                {
-                    "typeComponent": "Image",
-                    "id": "image1",
-                    "value": "image1",
-                    "backgroundImage": "",
-                    "width": 100,
-                    "height": 100,
-                    "posX": 30,
-                    "posY": 30
-                },
                 {
                     "typeComponent": "ButtonWithLabel",
                     "id": "buttonWithLabel1",
-                    "title": "button1",
+                    "title": "VOLTAR",
                     "color": "#FFF",
                     "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
                     "fontSize": 10,
                     "width": 170,
                     "height": 60,
-                    "posX": 30,
-                    "posY": 30
+                    "posX": 0,
+                    "posY": 0
                 },
                 {
                     "typeComponent": "ButtonWithLabel",
                     "id": "buttonWithLabel2",
-                    "title": "button2",
+                    "title": "AVAN\u00c7AR",
                     "color": "#FFF",
                     "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
                     "fontSize": 10,
                     "width": 170,
                     "height": 60,
-                    "posX": 30,
-                    "posY": 30
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text1",
+                    "value": "TEMPO",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
                 }
-            ],
-            "height": 480,
-            "width": 482,
-            "orientation": "portrait"
+            ]
+        },
+        {
+            "typeComponent": "Screen",
+            "id": "screen4",
+            "backgroundColor": "#FFFFFF",
+            "childs": [
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel1",
+                    "title": "VOLTAR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text1",
+                    "value": "TEMPO PRODUTO",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text2",
+                    "value": "TEMPO DECORRIDO",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text3",
+                    "value": "TEMPO ESTIMADO",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                }
+            ]
+        },
+        {
+            "typeComponent": "Screen",
+            "id": "screen5",
+            "backgroundColor": "#FFFFFF",
+            "childs": [
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel1",
+                    "title": "VOLTAR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text1",
+                    "value": "TEMP. INTERN",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text2",
+                    "value": "TEMPO DECORRIDO",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text3",
+                    "value": "TEMPO CONFIG.",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                }
+            ]
+        },
+        {
+            "typeComponent": "Screen",
+            "id": "screen6",
+            "backgroundColor": "#FFFFFF",
+            "childs": [
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel1",
+                    "title": "VOLTAR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text1",
+                    "value": "TEMP. INTERN",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text2",
+                    "value": "TEMPO DECORRIDO",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text3",
+                    "value": "TEMPO CONFIG",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                }
+            ]
+        },
+        {
+            "typeComponent": "Screen",
+            "id": "screen7",
+            "backgroundColor": "#FFFFFF",
+            "childs": [
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel1",
+                    "title": "MODO SONDA",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel2",
+                    "title": "MODO TEMPO",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel3",
+                    "title": "VOLTAR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                }
+            ]
+        },
+        {
+            "typeComponent": "Screen",
+            "id": "screen8",
+            "backgroundColor": "#FFFFFF",
+            "childs": [
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel1",
+                    "title": "VOLTAR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel2",
+                    "title": "AVAN\u00c7AR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text1",
+                    "value": "TEMPO",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                }
+            ]
+        },
+        {
+            "typeComponent": "Screen",
+            "id": "screen9",
+            "backgroundColor": "#FFFFFF",
+            "childs": [
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel1",
+                    "title": "VOLTAR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text1",
+                    "value": "TEMPO PRODUTO",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text2",
+                    "value": "TEMPO DECORRIDO",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text3",
+                    "value": "TEMPO ESTIMADO",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                }
+            ]
+        },
+        {
+            "typeComponent": "Screen",
+            "id": "screen10",
+            "backgroundColor": "#FFFFFF",
+            "childs": [
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel1",
+                    "title": "VOLTAR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text1",
+                    "value": "TEMPO PRODUTO",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text2",
+                    "value": "TEMP INTERNA",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                }
+            ]
+        },
+        {
+            "typeComponent": "Screen",
+            "id": "screen11",
+            "backgroundColor": "#FFFFFF",
+            "childs": [
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel1",
+                    "title": "CONGELAR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel2",
+                    "title": "RESFRIAR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel3",
+                    "title": "VOLTAR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                }
+            ]
+        },
+        {
+            "typeComponent": "Screen",
+            "id": "screen12",
+            "backgroundColor": "#FFFFFF",
+            "childs": [
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel1",
+                    "title": "VOLTAR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text1",
+                    "value": "TEMPO PRODUTO",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text2",
+                    "value": "TEMP. INTERNA",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                }
+            ]
+        },
+        {
+            "typeComponent": "Screen",
+            "id": "screen13",
+            "backgroundColor": "#FFFFFF",
+            "childs": [
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel1",
+                    "title": "VOLTAR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel2",
+                    "title": "AVAN\u00c7AR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                }
+            ]
+        },
+        {
+            "typeComponent": "Screen",
+            "id": "screen14",
+            "backgroundColor": "#FFFFFF",
+            "childs": [
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel1",
+                    "title": "CANCELAR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel2",
+                    "title": "DEGELO",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                }
+            ]
+        },
+        {
+            "typeComponent": "Screen",
+            "id": "screen15",
+            "backgroundColor": "#FFFFFF",
+            "childs": [
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel1",
+                    "title": "VOLTAR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text1",
+                    "value": "TEMPO DECORRIDO",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                }
+            ]
+        },
+        {
+            "typeComponent": "Screen",
+            "id": "screen16",
+            "backgroundColor": "#FFFFFF",
+            "childs": [
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel1",
+                    "title": "VOLTAR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text1",
+                    "value": "TEMP. EVAPORADORA",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text2",
+                    "value": "TEMPO DECORRIDO",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "Container",
+                    "id": "container1",
+                    "value": "RECEITAS",
+                    "backgroundColor": "#000000",
+                    "width": 100,
+                    "height": 50,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel2",
+                    "title": "EDITAR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel3",
+                    "title": "VOLTAR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel4",
+                    "title": "AVAN\u00c7AR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "Box",
+                    "id": "Box1",
+                    "value": "Lista de receitas",
+                    "backgroundColor": "#0000",
+                    "borderWidth": 1,
+                    "borderColor": "#000",
+                    "width": 100,
+                    "height": 50,
+                    "posX": 0,
+                    "posY": 0
+                }
+            ]
+        },
+        {
+            "typeComponent": "Screen",
+            "id": "screen17",
+            "backgroundColor": "#FFFFFF",
+            "childs": [
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel1",
+                    "title": "VOLTAR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text1",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text2",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text3",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text4",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                }
+            ]
+        },
+        {
+            "typeComponent": "Screen",
+            "id": "screen18",
+            "backgroundColor": "#FFFFFF",
+            "childs": [
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel1",
+                    "title": "VOLTAR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text1",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text2",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text3",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                }
+            ]
+        },
+        {
+            "typeComponent": "Screen",
+            "id": "screen19",
+            "backgroundColor": "#FFFFFF",
+            "childs": [
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel1",
+                    "title": "N\u00c3O",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel2",
+                    "title": "SIM",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                }
+            ]
+        },
+        {
+            "typeComponent": "Screen",
+            "id": "screen20",
+            "backgroundColor": "#FFFFFF",
+            "childs": [
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel1",
+                    "title": "AVAN\u00c7AR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel2",
+                    "title": "VOLTAR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text1",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                }
+            ]
+        },
+        {
+            "typeComponent": "Screen",
+            "id": "screen21",
+            "backgroundColor": "#FFFFFF",
+            "childs": [
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel1",
+                    "title": "VOLTAR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel2",
+                    "title": "AVAN\u00c7AR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel3",
+                    "title": "RESET",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text1",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text2",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text3",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text4",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                }
+            ]
+        },
+        {
+            "typeComponent": "Screen",
+            "id": "screen22",
+            "backgroundColor": "#FFFFFF",
+            "childs": [
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel1",
+                    "title": "VOLTAR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel2",
+                    "title": "AVAN\u00c7AR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel3",
+                    "title": "AVAN\u00c7AR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text1",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text2",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text3",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text4",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text5",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text6",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text7",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                }
+            ]
+        },
+        {
+            "typeComponent": "Screen",
+            "id": "screen23",
+            "backgroundColor": "#FFFFFF",
+            "childs": [
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel1",
+                    "title": "VOLTAR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                }
+            ]
+        },
+        {
+            "typeComponent": "Screen",
+            "id": "screen24",
+            "backgroundColor": "#FFFFFF",
+            "childs": [
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel1",
+                    "title": "AVAN\u00c7AR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text1",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text2",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text3",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text4",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text5",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                }
+            ]
+        },
+        {
+            "typeComponent": "Screen",
+            "id": "screen25",
+            "backgroundColor": "#FFFFFF",
+            "childs": [
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel1",
+                    "title": "AVAN\u00c7AR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel2",
+                    "title": "VOLTAR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                }
+            ]
+        },
+        {
+            "typeComponent": "Screen",
+            "id": "screen26",
+            "backgroundColor": "#FFFFFF",
+            "childs": [
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel1",
+                    "title": "AVAN\u00c7AR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text1",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text2",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text3",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text4",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text5",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                }
+            ]
+        },
+        {
+            "typeComponent": "Screen",
+            "id": "screen27",
+            "backgroundColor": "#FFFFFF",
+            "childs": [
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel1",
+                    "title": "AVAN\u00c7AR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel2",
+                    "title": "VOLTAR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text1",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text2",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text3",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text4",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text5",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                }
+            ]
+        },
+        {
+            "typeComponent": "Screen",
+            "id": "screen28",
+            "backgroundColor": "#FFFFFF",
+            "childs": [
+                {
+                    "typeComponent": "ButtonWithLabel",
+                    "id": "buttonWithLabel1",
+                    "title": "VOLTAR",
+                    "color": "#FFF",
+                    "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+                    "fontSize": 10,
+                    "width": 170,
+                    "height": 60,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text1",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text2",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text3",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text4",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text5",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                },
+                {
+                    "typeComponent": "TextArea",
+                    "id": "text6",
+                    "value": "Simple Field",
+                    "color": "#000000",
+                    "fontSize": 20,
+                    "posX": 0,
+                    "posY": 0
+                }
+            ]
+        },
+        {
+            "typeComponent": "Screen",
+            "id": "screen29",
+            "backgroundColor": "#FFFFFF",
+            "childs": [
+                {
+                    "typeComponent": "Toggle",
+                    "id": "toggle1",
+                    "label": "Selecionar",
+                    "color": "#000",
+                    "fontSize": 10,
+                    "posX": 0,
+                    "posY": 0
+                }
+            ]
         }
     ]
 }

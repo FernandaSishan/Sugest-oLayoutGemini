@@ -30,6 +30,7 @@ def format_manifest(manifest_data):
     Ajuste a posição dos componentes no manifesto para criar um layout mais visualmente organizado e alinhado.
     O objetivo é garantir que os elementos da interface fiquem bem distribuídos e harmoniosos, com espaçamento adequado
     entre eles, alinhamento consistente e uma estrutura mais agradável esteticamente. Se necessário para melhor visualização, altere as cores dos componentes, botões e cor da fonte. não adicione comentários no código.
+    Ajuste todas as screens(telas) do arquivo, preciso que todas sejam ajustadas.
     
     {json.dumps(manifest_data, indent=2)}
     
@@ -53,7 +54,7 @@ def save_formatted_manifest(file_path, formatted_manifest):
         if not os.path.exists(adjusted_dir):
             os.makedirs(adjusted_dir)  # Cria a pasta se não existir
 
-        new_file_path = os.path.join(adjusted_dir, os.path.basename(file_path).replace(".json", "_testeEMPILHADO1.json"))
+        new_file_path = os.path.join(adjusted_dir, os.path.basename(file_path).replace(".json", "_testeUltracongelador3.json"))
         with open(new_file_path, 'w') as file:
             file.write(formatted_manifest)
         print(f"Manifesto formatado salvo em: {new_file_path}")
