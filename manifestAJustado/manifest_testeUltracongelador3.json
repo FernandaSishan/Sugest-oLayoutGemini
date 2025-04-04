@@ -1,4 +1,3 @@
-
 {
   "projectName": "Ultracongelador",
   "author": "Fernanda",
@@ -18,7 +17,7 @@
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel1",
           "title": "CONGELAR",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
           "fontSize": 14,
           "width": 200,
@@ -30,7 +29,7 @@
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel2",
           "title": "CONSERVAR",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
           "fontSize": 14,
           "width": 200,
@@ -42,7 +41,7 @@
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel3",
           "title": "RECEITAS",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
           "fontSize": 14,
           "width": 200,
@@ -54,7 +53,7 @@
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel4",
           "title": "RESFRIAR",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
           "fontSize": 14,
           "width": 200,
@@ -66,7 +65,7 @@
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel5",
           "title": "DEGELO",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
           "fontSize": 14,
           "width": 200,
@@ -78,7 +77,7 @@
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel6",
           "title": "HIGIENIZA��O",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
           "fontSize": 14,
           "width": 200,
@@ -90,7 +89,7 @@
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel7",
           "title": "Config",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
           "fontSize": 14,
           "width": 100,
@@ -109,36 +108,36 @@
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel1",
           "title": "MODO TEMPO",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
-          "fontSize": 18,
-          "width": 220,
-          "height": 60,
-          "posX": 130,
-          "posY": 50
+          "fontSize": 14,
+          "width": 200,
+          "height": 50,
+          "posX": 140,
+          "posY": 40
         },
         {
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel2",
           "title": "MODO SONDA",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
-          "fontSize": 18,
-          "width": 220,
-          "height": 60,
-          "posX": 130,
-          "posY": 130
+          "fontSize": 14,
+          "width": 200,
+          "height": 50,
+          "posX": 140,
+          "posY": 120
         },
         {
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel3",
           "title": "VOLTAR",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
           "fontSize": 14,
           "width": 100,
           "height": 40,
-          "posX": 20,
+          "posX": 380,
           "posY": 222
         }
       ]
@@ -153,7 +152,7 @@
           "id": "text1",
           "value": "TEMPO",
           "color": "#000000",
-          "fontSize": 24,
+          "fontSize": 20,
           "posX": 200,
           "posY": 20
         },
@@ -161,25 +160,25 @@
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel1",
           "title": "VOLTAR",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
           "fontSize": 14,
-          "width": 100,
-          "height": 40,
-          "posX": 20,
-          "posY": 222
+          "width": 150,
+          "height": 50,
+          "posX": 40,
+          "posY": 180
         },
         {
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel2",
           "title": "AVAN�AR",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
           "fontSize": 14,
-          "width": 100,
-          "height": 40,
-          "posX": 380,
-          "posY": 222
+          "width": 150,
+          "height": 50,
+          "posX": 290,
+          "posY": 180
         }
       ]
     },
@@ -193,8 +192,8 @@
           "id": "text1",
           "value": "TEMPO PRODUTO",
           "color": "#000000",
-          "fontSize": 18,
-          "posX": 130,
+          "fontSize": 16,
+          "posX": 30,
           "posY": 20
         },
         {
@@ -202,8 +201,8 @@
           "id": "text2",
           "value": "TEMPO DECORRIDO",
           "color": "#000000",
-          "fontSize": 18,
-          "posX": 130,
+          "fontSize": 16,
+          "posX": 30,
           "posY": 80
         },
         {
@@ -211,20 +210,20 @@
           "id": "text3",
           "value": "TEMPO ESTIMADO",
           "color": "#000000",
-          "fontSize": 18,
-          "posX": 130,
+          "fontSize": 16,
+          "posX": 30,
           "posY": 140
         },
         {
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel1",
           "title": "VOLTAR",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
           "fontSize": 14,
           "width": 100,
           "height": 40,
-          "posX": 20,
+          "posX": 380,
           "posY": 222
         }
       ]
@@ -239,8 +238,8 @@
           "id": "text1",
           "value": "TEMP. INTERN",
           "color": "#000000",
-          "fontSize": 18,
-          "posX": 150,
+          "fontSize": 16,
+          "posX": 30,
           "posY": 20
         },
         {
@@ -248,8 +247,8 @@
           "id": "text2",
           "value": "TEMPO DECORRIDO",
           "color": "#000000",
-          "fontSize": 18,
-          "posX": 130,
+          "fontSize": 16,
+          "posX": 30,
           "posY": 80
         },
         {
@@ -257,20 +256,20 @@
           "id": "text3",
           "value": "TEMPO CONFIG.",
           "color": "#000000",
-          "fontSize": 18,
-          "posX": 130,
+          "fontSize": 16,
+          "posX": 30,
           "posY": 140
         },
         {
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel1",
           "title": "VOLTAR",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
           "fontSize": 14,
           "width": 100,
           "height": 40,
-          "posX": 20,
+          "posX": 380,
           "posY": 222
         }
       ]
@@ -285,8 +284,8 @@
           "id": "text1",
           "value": "TEMP. INTERN",
           "color": "#000000",
-          "fontSize": 18,
-          "posX": 150,
+          "fontSize": 16,
+          "posX": 30,
           "posY": 20
         },
         {
@@ -294,8 +293,8 @@
           "id": "text2",
           "value": "TEMPO DECORRIDO",
           "color": "#000000",
-          "fontSize": 18,
-          "posX": 130,
+          "fontSize": 16,
+          "posX": 30,
           "posY": 80
         },
         {
@@ -303,20 +302,20 @@
           "id": "text3",
           "value": "TEMPO CONFIG",
           "color": "#000000",
-          "fontSize": 18,
-          "posX": 130,
+          "fontSize": 16,
+          "posX": 30,
           "posY": 140
         },
         {
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel1",
           "title": "VOLTAR",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
           "fontSize": 14,
           "width": 100,
           "height": 40,
-          "posX": 20,
+          "posX": 380,
           "posY": 222
         }
       ]
@@ -330,36 +329,36 @@
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel1",
           "title": "MODO SONDA",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
-          "fontSize": 18,
-          "width": 220,
-          "height": 60,
-          "posX": 130,
-          "posY": 50
+          "fontSize": 14,
+          "width": 200,
+          "height": 50,
+          "posX": 140,
+          "posY": 40
         },
         {
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel2",
           "title": "MODO TEMPO",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
-          "fontSize": 18,
-          "width": 220,
-          "height": 60,
-          "posX": 130,
-          "posY": 130
+          "fontSize": 14,
+          "width": 200,
+          "height": 50,
+          "posX": 140,
+          "posY": 120
         },
         {
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel3",
           "title": "VOLTAR",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
           "fontSize": 14,
           "width": 100,
           "height": 40,
-          "posX": 20,
+          "posX": 380,
           "posY": 222
         }
       ]
@@ -374,7 +373,7 @@
           "id": "text1",
           "value": "TEMPO",
           "color": "#000000",
-          "fontSize": 24,
+          "fontSize": 20,
           "posX": 200,
           "posY": 20
         },
@@ -382,25 +381,25 @@
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel1",
           "title": "VOLTAR",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
           "fontSize": 14,
-          "width": 100,
-          "height": 40,
-          "posX": 20,
-          "posY": 222
+          "width": 150,
+          "height": 50,
+          "posX": 40,
+          "posY": 180
         },
         {
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel2",
           "title": "AVAN�AR",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
           "fontSize": 14,
-          "width": 100,
-          "height": 40,
-          "posX": 380,
-          "posY": 222
+          "width": 150,
+          "height": 50,
+          "posX": 290,
+          "posY": 180
         }
       ]
     },
@@ -414,8 +413,8 @@
           "id": "text1",
           "value": "TEMPO PRODUTO",
           "color": "#000000",
-          "fontSize": 18,
-          "posX": 130,
+          "fontSize": 16,
+          "posX": 30,
           "posY": 20
         },
         {
@@ -423,8 +422,8 @@
           "id": "text2",
           "value": "TEMPO DECORRIDO",
           "color": "#000000",
-          "fontSize": 18,
-          "posX": 130,
+          "fontSize": 16,
+          "posX": 30,
           "posY": 80
         },
         {
@@ -432,20 +431,20 @@
           "id": "text3",
           "value": "TEMPO ESTIMADO",
           "color": "#000000",
-          "fontSize": 18,
-          "posX": 130,
+          "fontSize": 16,
+          "posX": 30,
           "posY": 140
         },
         {
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel1",
           "title": "VOLTAR",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
           "fontSize": 14,
           "width": 100,
           "height": 40,
-          "posX": 20,
+          "posX": 380,
           "posY": 222
         }
       ]
@@ -460,8 +459,8 @@
           "id": "text1",
           "value": "TEMPO PRODUTO",
           "color": "#000000",
-          "fontSize": 18,
-          "posX": 130,
+          "fontSize": 16,
+          "posX": 30,
           "posY": 40
         },
         {
@@ -469,20 +468,20 @@
           "id": "text2",
           "value": "TEMP INTERNA",
           "color": "#000000",
-          "fontSize": 18,
-          "posX": 140,
+          "fontSize": 16,
+          "posX": 30,
           "posY": 120
         },
         {
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel1",
           "title": "VOLTAR",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
           "fontSize": 14,
           "width": 100,
           "height": 40,
-          "posX": 20,
+          "posX": 380,
           "posY": 222
         }
       ]
@@ -496,36 +495,36 @@
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel1",
           "title": "CONGELAR",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
-          "fontSize": 18,
-          "width": 220,
-          "height": 60,
-          "posX": 130,
-          "posY": 50
+          "fontSize": 14,
+          "width": 200,
+          "height": 50,
+          "posX": 140,
+          "posY": 40
         },
         {
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel2",
           "title": "RESFRIAR",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
-          "fontSize": 18,
-          "width": 220,
-          "height": 60,
-          "posX": 130,
-          "posY": 130
+          "fontSize": 14,
+          "width": 200,
+          "height": 50,
+          "posX": 140,
+          "posY": 120
         },
         {
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel3",
           "title": "VOLTAR",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
           "fontSize": 14,
           "width": 100,
           "height": 40,
-          "posX": 20,
+          "posX": 380,
           "posY": 222
         }
       ]
@@ -540,8 +539,8 @@
           "id": "text1",
           "value": "TEMPO PRODUTO",
           "color": "#000000",
-          "fontSize": 18,
-          "posX": 130,
+          "fontSize": 16,
+          "posX": 30,
           "posY": 40
         },
         {
@@ -549,20 +548,20 @@
           "id": "text2",
           "value": "TEMP. INTERNA",
           "color": "#000000",
-          "fontSize": 18,
-          "posX": 140,
+          "fontSize": 16,
+          "posX": 30,
           "posY": 120
         },
         {
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel1",
           "title": "VOLTAR",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
           "fontSize": 14,
           "width": 100,
           "height": 40,
-          "posX": 20,
+          "posX": 380,
           "posY": 222
         }
       ]
@@ -576,25 +575,25 @@
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel1",
           "title": "VOLTAR",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
           "fontSize": 14,
-          "width": 100,
-          "height": 40,
-          "posX": 20,
-          "posY": 222
+          "width": 150,
+          "height": 50,
+          "posX": 40,
+          "posY": 120
         },
         {
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel2",
           "title": "AVAN�AR",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
           "fontSize": 14,
-          "width": 100,
-          "height": 40,
-          "posX": 380,
-          "posY": 222
+          "width": 150,
+          "height": 50,
+          "posX": 290,
+          "posY": 120
         }
       ]
     },
@@ -607,25 +606,25 @@
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel1",
           "title": "CANCELAR",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
-          "fontSize": 18,
-          "width": 220,
-          "height": 60,
-          "posX": 130,
-          "posY": 50
+          "fontSize": 14,
+          "width": 150,
+          "height": 50,
+          "posX": 40,
+          "posY": 120
         },
         {
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel2",
           "title": "DEGELO",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
-          "fontSize": 18,
-          "width": 220,
-          "height": 60,
-          "posX": 130,
-          "posY": 130
+          "fontSize": 14,
+          "width": 150,
+          "height": 50,
+          "posX": 290,
+          "posY": 120
         }
       ]
     },
@@ -641,18 +640,18 @@
           "color": "#000000",
           "fontSize": 20,
           "posX": 140,
-          "posY": 100
+          "posY": 80
         },
         {
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel1",
           "title": "VOLTAR",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
           "fontSize": 14,
           "width": 100,
           "height": 40,
-          "posX": 20,
+          "posX": 380,
           "posY": 222
         }
       ]
@@ -668,7 +667,7 @@
           "value": "TEMP. EVAPORADORA",
           "color": "#000000",
           "fontSize": 16,
-          "posX": 10,
+          "posX": 30,
           "posY": 20
         },
         {
@@ -677,56 +676,56 @@
           "value": "TEMPO DECORRIDO",
           "color": "#000000",
           "fontSize": 16,
-          "posX": 10,
-          "posY": 60
+          "posX": 30,
+          "posY": 80
         },
         {
           "typeComponent": "Box",
           "id": "Box1",
           "value": "Lista de receitas",
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "#FFFFFF",
           "borderWidth": 1,
           "borderColor": "#000000",
-          "width": 440,
-          "height": 100,
-          "posX": 20,
-          "posY": 100
+          "width": 400,
+          "height": 80,
+          "posX": 40,
+          "posY": 140
         },
         {
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel2",
           "title": "EDITAR",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
-          "fontSize": 14,
-          "width": 100,
-          "height": 40,
-          "posX": 360,
-          "posY": 20
-        },
-        {
-          "typeComponent": "ButtonWithLabel",
-          "id": "buttonWithLabel3",
-          "title": "VOLTAR",
-          "color": "#ffffff",
-          "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
-          "fontSize": 14,
-          "width": 100,
-          "height": 40,
-          "posX": 20,
-          "posY": 222
+          "fontSize": 12,
+          "width": 80,
+          "height": 30,
+          "posX": 40,
+          "posY": 232
         },
         {
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel4",
           "title": "AVAN�AR",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
-          "fontSize": 14,
-          "width": 100,
-          "height": 40,
+          "fontSize": 12,
+          "width": 80,
+          "height": 30,
+          "posX": 140,
+          "posY": 232
+        },
+        {
+          "typeComponent": "ButtonWithLabel",
+          "id": "buttonWithLabel3",
+          "title": "VOLTAR",
+          "color": "#FFFFFF",
+          "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
+          "fontSize": 12,
+          "width": 80,
+          "height": 30,
           "posX": 380,
-          "posY": 222
+          "posY": 232
         }
       ]
     },
@@ -741,7 +740,7 @@
           "value": "Simple Field",
           "color": "#000000",
           "fontSize": 16,
-          "posX": 20,
+          "posX": 30,
           "posY": 20
         },
         {
@@ -750,7 +749,7 @@
           "value": "Simple Field",
           "color": "#000000",
           "fontSize": 16,
-          "posX": 20,
+          "posX": 30,
           "posY": 60
         },
         {
@@ -759,7 +758,7 @@
           "value": "Simple Field",
           "color": "#000000",
           "fontSize": 16,
-          "posX": 20,
+          "posX": 30,
           "posY": 100
         },
         {
@@ -768,19 +767,19 @@
           "value": "Simple Field",
           "color": "#000000",
           "fontSize": 16,
-          "posX": 20,
+          "posX": 30,
           "posY": 140
         },
         {
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel1",
           "title": "VOLTAR",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
           "fontSize": 14,
           "width": 100,
           "height": 40,
-          "posX": 20,
+          "posX": 380,
           "posY": 222
         }
       ]
@@ -795,8 +794,8 @@
           "id": "text1",
           "value": "Simple Field",
           "color": "#000000",
-          "fontSize": 18,
-          "posX": 150,
+          "fontSize": 16,
+          "posX": 30,
           "posY": 40
         },
         {
@@ -804,8 +803,8 @@
           "id": "text2",
           "value": "Simple Field",
           "color": "#000000",
-          "fontSize": 18,
-          "posX": 150,
+          "fontSize": 16,
+          "posX": 30,
           "posY": 100
         },
         {
@@ -813,20 +812,20 @@
           "id": "text3",
           "value": "Simple Field",
           "color": "#000000",
-          "fontSize": 18,
-          "posX": 150,
+          "fontSize": 16,
+          "posX": 30,
           "posY": 160
         },
         {
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel1",
           "title": "VOLTAR",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
           "fontSize": 14,
           "width": 100,
           "height": 40,
-          "posX": 20,
+          "posX": 380,
           "posY": 222
         }
       ]
@@ -840,25 +839,25 @@
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel1",
           "title": "N�O",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
-          "fontSize": 18,
+          "fontSize": 14,
           "width": 150,
-          "height": 60,
-          "posX": 70,
-          "posY": 100
+          "height": 50,
+          "posX": 40,
+          "posY": 120
         },
         {
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel2",
           "title": "SIM",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
-          "fontSize": 18,
+          "fontSize": 14,
           "width": 150,
-          "height": 60,
-          "posX": 260,
-          "posY": 100
+          "height": 50,
+          "posX": 290,
+          "posY": 120
         }
       ]
     },
@@ -878,27 +877,27 @@
         },
         {
           "typeComponent": "ButtonWithLabel",
-          "id": "buttonWithLabel1",
-          "title": "AVAN�AR",
-          "color": "#ffffff",
+          "id": "buttonWithLabel2",
+          "title": "VOLTAR",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
           "fontSize": 14,
-          "width": 100,
-          "height": 40,
-          "posX": 380,
-          "posY": 222
+          "width": 150,
+          "height": 50,
+          "posX": 40,
+          "posY": 180
         },
         {
           "typeComponent": "ButtonWithLabel",
-          "id": "buttonWithLabel2",
-          "title": "VOLTAR",
-          "color": "#ffffff",
+          "id": "buttonWithLabel1",
+          "title": "AVAN�AR",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
           "fontSize": 14,
-          "width": 100,
-          "height": 40,
-          "posX": 20,
-          "posY": 222
+          "width": 150,
+          "height": 50,
+          "posX": 290,
+          "posY": 180
         }
       ]
     },
@@ -913,7 +912,7 @@
           "value": "Simple Field",
           "color": "#000000",
           "fontSize": 14,
-          "posX": 20,
+          "posX": 30,
           "posY": 20
         },
         {
@@ -922,8 +921,8 @@
           "value": "Simple Field",
           "color": "#000000",
           "fontSize": 14,
-          "posX": 20,
-          "posY": 50
+          "posX": 30,
+          "posY": 60
         },
         {
           "typeComponent": "TextArea",
@@ -931,8 +930,8 @@
           "value": "Simple Field",
           "color": "#000000",
           "fontSize": 14,
-          "posX": 20,
-          "posY": 80
+          "posX": 30,
+          "posY": 100
         },
         {
           "typeComponent": "TextArea",
@@ -940,16 +939,16 @@
           "value": "Simple Field",
           "color": "#000000",
           "fontSize": 14,
-          "posX": 20,
-          "posY": 110
+          "posX": 30,
+          "posY": 140
         },
         {
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel1",
           "title": "VOLTAR",
-          "color": "#ffffff",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
-          "fontSize": 14,
+          "fontSize": 12,
           "width": 100,
           "height": 40,
           "posX": 20,
@@ -957,22 +956,25 @@
         },
         {
           "typeComponent": "ButtonWithLabel",
-          "id": "buttonWithLabel2",
-          "title": "AVAN�AR",
-          "color": "#ffffff",
+          "id": "buttonWithLabel3",
+          "title": "RESET",
+          "color": "#FFFFFF",
           "backgroundImage": "Blue_Buttons_Round_Edge_small.png",
-          "fontSize": 14,
+          "fontSize": 12,
           "width": 100,
           "height": 40,
-          "posX": 380,
+          "posX": 190,
           "posY": 222
         }
+      ]
+    },
+    {
+      "typeComponent": "Screen",
+      "id": "screen3",
+      "backgroundColor": "#FFFFFF",
+      "childs": [
 
       ]
-      
     }
-  
   ]
 }
-
-        

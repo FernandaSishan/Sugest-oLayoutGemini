@@ -30,7 +30,7 @@ def format_manifest(manifest_data):
     Ajuste a posição dos componentes no manifesto para criar um layout mais visualmente organizado e alinhado.
     O objetivo é garantir que os elementos da interface fiquem bem distribuídos e harmoniosos, com espaçamento adequado
     entre eles, alinhamento consistente e uma estrutura mais agradável esteticamente. Se necessário para melhor visualização, altere as cores dos componentes, botões e cor da fonte. não adicione comentários no código.
-    Ajuste todas as screens(telas) do arquivo, preciso que todas sejam ajustadas.
+    Ajuste todas as screens(telas) do arquivo, preciso que todas sejam ajustadas. não imprima com o (```json).
     
     {json.dumps(manifest_data, indent=2)}
     

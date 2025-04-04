@@ -1,4 +1,4 @@
-```json
+
 {
   "projectName": "forno",
   "author": "fernanda",
@@ -17,7 +17,7 @@
         {
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel1",
-          "title": "Informações",
+          "title": "Informaï¿½ï¿½es",
           "color": "#FFFFFF",
           "backgroundColor": "#4CAF50",
           "fontSize": 14,
@@ -53,7 +53,7 @@
         {
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel4",
-          "title": "Configurações",
+          "title": "Configuraï¿½ï¿½es",
           "color": "#FFFFFF",
           "backgroundColor": "#9C27B0",
           "fontSize": 14,
@@ -77,7 +77,7 @@
         {
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel6",
-          "title": "Ativações Agendadas",
+          "title": "Ativaï¿½ï¿½es Agendadas",
           "color": "#FFFFFF",
           "backgroundColor": "#795548",
           "fontSize": 14,
@@ -96,7 +96,7 @@
         {
           "typeComponent": "ButtonWithLabel",
           "id": "buttonWithLabel1",
-          "title": "Início",
+          "title": "Inï¿½cio",
           "color": "#FFFFFF",
           "backgroundColor": "#2196F3",
           "fontSize": 14,
@@ -117,4 +117,3 @@
     }
   ]
 }
-```
