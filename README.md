@@ -24,9 +24,7 @@ Instale estas extensões para facilitar o desenvolvimento:
 
 - **Python** (ms-python.python)
 - **Pylance** (ms-python.vscode-pylance)
-- **Jupyter** (ms-toolsai.jupyter) – útil para testes interativos.
-- **JSON Tools** (eriklynd.json-tools) – para validar e visualizar arquivos JSON.
-
+- **JSON Tools** (eriklynd.json-tools)
 ---
 
 ## 📦 Instalação
