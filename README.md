@@ -1,5 +1,5 @@
 
-# 🧊 Ajustador de Layout para Manifestos de Interface (.json)
+# 🧊 Melhoria de manifests de Interface (.json)
 
 Este projeto utiliza a **API Gemini da Google** para formatar e melhorar automaticamente o layout visual de arquivos JSON que representam interfaces gráficas. O script processa todos os arquivos `.json` contidos na pasta `manifests/`, reorganiza os componentes da tela e salva os ajustes na pasta `manifestAjustado/`.
 
@@ -75,10 +75,4 @@ Instale estas extensões para facilitar o desenvolvimento:
 ## 📝 Observações
 
 - Certifique-se de que os arquivos `.json` estejam bem formatados.
-- A IA pode ajustar cores e posições para criar um layout mais agradável, mas sempre revise os resultados.
 
----
-
-## 📃 Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
