@@ -3,7 +3,7 @@ import os
 import json
 
 # Configure a API Key do Google
-GOOGLE_API_KEY = "AIzaSyDuZI-_BGgqdiKCKOpc7woUQlAKBqY879k"  # Sua chave
+GOOGLE_API_KEY = "SUA_CHAVE_AQUI"  # Sua chave
 
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-1.5-pro')
